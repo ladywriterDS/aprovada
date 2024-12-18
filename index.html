@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Congratulations!</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        roxo: '#850F8D',
+                        lilas: {
+                            medio: '#C738BD',
+                            claro: '#E49BFF'
+                        },
+                        bege: '#F8F9D7'
+                    },
+                    fontFamily: {
+                        serif: ['PT Mono', 'serif'],
+                        inter: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-bege">
+    <div class="flex justify-center mx-4 my-4 bg-roxo rounded p-2 drop-shadow-2xl group">
+    <header class="font-serif text-xl md:text-2xl text-bege">Parabéns pela aprovação, querida Dhiana!</header>
+    <img src="img/mortarboard.svg" alt="Chapéu de graduação" class="p-1 group-hover:animate-bounce">
+    </div>
+    <div class="flex relative md:items-center drop-shadow-lg group">
+        <section class="bg-bege bg-opacity-70 mx-2 rounded-lg p-3 flex flex-col items-center w-3/5 md:justify-center md:h-44 md:w-2/4">
+            <h3 class="m-1 text-roxo font-extrabold text-base text-justify md:text-xl">Sempre soube que você seria capaz, dedicação vence sempre!</h3>
+            <p class="text-justify md:text-lg">Você chegou até aqui porque aguentou muito nas costas, engoliu muita porra calada mas segurou firme e deu pra passar!</p>
+        </section>
+        <section class="w-2/5 md:w-2/4">
+            <img src="img/happy_girl.png" alt="Garota Feliz" class="group-hover:animate-bounce">
+        </section>
+    </div>
+    <div class="flex m-4 bg-lilas-medio bg-opacity-30 space-x-5 justify-between rounded group">
+        <section class="w-3/4 self-center md:justify-self-start">
+            <p class="p-2 text-black text-opacity-90 text-italic text-justify md:text-lg">Todos os homens têm medo. Quem não tem medo não é normal; isso nada tem a ver com a coragem.</p>
+            <p class="px-2 pb-3 text-black text-opacity-70 font-serif">Jean-Paul Sartre</p>
+        </section>
+        <section class="flex w-1/4 md:justify-self-end p-2 h-21 w-19 grow-1">
+            <img src="img/coração.gif" alt="gif de coração" class="group-hover:animate-pulse">
+        </section>
+    </div>
+    <div class="flex flex-col">
+        <section class="bg-bege rounded drop-shadow-2xl w-48 m-auto">
+            <h2 class="text-xl font-serif text-roxo">PHOTO TIMEEE!</h2>
+        </section>
+        <section class="flex justify-between my-2 p-1">
+            <img src="img/estrabica.PNG" alt="" class="w-1/6">
+            <img src="img/com_pio.png" alt="" class="w-1/6">
+            <img src="img/niver.png" alt="" class="w-1/6">
+            <img src="img/andando.png" alt="" class="w-1/6">
+            <img src="img/escola.png" alt="" class="w-1/6">
+        </section>
+    </div>
+    <footer class="flex mt-5 mb-0 bg-roxo bg-opacity-70 p-10">
+    <div class="bottom-0 flex group items-center text-justify">
+            <p class="text-bege font-bold ">Você merece o melhor do mundo! Beijocas, querida.</p>
+            <img src="img/balloon-heart.svg" alt="Balão de coração." class="group-hover:animate-bounce">
+        </div>
+    </footer>
+</body>
+</html>
